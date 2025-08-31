@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from sentiment_llm import system_prompt
 
-API_KEY = "AIzaSyDr5D2Lf-qa_506aGLTZ1GKjrQiWaGK_JY"
+API_KEY = "" # enter your API key here
 
 if 'all_responses' not in st.session_state:
     st.session_state.all_responses = []
